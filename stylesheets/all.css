@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: "Roboto","Microsoft JhengHei","PingFangTC-Regular";
+  background-color: #f2f2f2; }
+  body .wrap {
+    margin: 0 auto;
+    text-align: center; }
+    body .wrap .container {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 0; }
+    body .wrap header {
+      height: 74px;
+      background-color: black; }
+      body .wrap header h1 {
+        font-size: 36px;
+        color: #50FF44;
+        font-style: italic;
+        line-height: 74px;
+        font-weight: bolder; }
+    body .wrap .ad {
+      padding: 24px 0; }
+    body .wrap main .col {
+      padding: 0; }
+    body .wrap main .comicBg {
+      border: 4px solid black; }
+    body .wrap main .comicInfo h2 {
+      font-size: 32px;
+      height: 52px;
+      line-height: 52px;
+      background-color: black;
+      text-align: center;
+      font-weight: bold;
+      color: white; }
+    body .wrap main .comicInfo .row {
+      margin: 0;
+      padding: 16px 0px 0px 24px; }
+      body .wrap main .comicInfo .row .title {
+        color: #000000;
+        font-weight: bolder;
+        width: 53px;
+        text-align: left;
+        margin-right: 20px; }
+      body .wrap main .comicInfo .row i {
+        padding-right: 7px; }
+    body .wrap main .comicInfo .geners {
+      padding-top: 24px; }
+    body .wrap main .comicInfo .summary {
+      padding: 24px 0 0 24px;
+      text-align: left; }
+      body .wrap main .comicInfo .summary h3 {
+        color: #000000;
+        font-weight: bolder;
+        margin-bottom: 8px; }
+      body .wrap main .comicInfo .summary p {
+        line-height: 24px; }
+        body .wrap main .comicInfo .summary p:nth-child(3) {
+          padding-top: 24px; }
+    body .wrap footer {
+      margin-top: 50px; }
+      body .wrap footer .container {
+        border: 4px solid black;
+        position: relative;
+        background-color: white;
+        padding: 11px 0; }
+      body .wrap footer .chapters {
+        width: 180px;
+        height: 45px;
+        line-height: 45px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: -48;
+        left: -4;
+        font-size: 24px;
+        font-weight: bolder; }
+      body .wrap footer a {
+        display: block;
+        padding: 10px 0 10px 24px;
+        text-align: left;
+        color: black;
+        text-decoration: none;
+        font-weight: bolder;
+        -webkit-transition: .3s all;
+        -o-transition: .3s all;
+        transition: .3s all; }
+        body .wrap footer a:hover {
+          background-color: black;
+          color: white; }
+        body .wrap footer a .newTag {
+          display: inline-block;
+          color: black;
+          background-color: #50FF44;
+          width: 55px;
+          height: 18px;
+          line-height: 18px;
+          text-align: center;
+          margin-left: 16px; }
+
+/*# sourceMappingURL=all.css.map */
